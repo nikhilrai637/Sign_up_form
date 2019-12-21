@@ -1,10 +1,117 @@
 <!DOCTYPE html>
 <html>
-<head><title>Form1_abhay</title></head>
+<head><title>Form1_abhay</title>
+<style>
+
+	h1{
+		text-align:center;
+	}
+
+	/*input[type=text], select, textarea {
+	  width: 100%;
+	  
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  	}*/
+
+	.container{
+		width:95%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	input {
+		width:100%;
+		display:inline-block;
+		padding: 12px;
+		resize: vertical;
+		border:1px solid #ccc;
+		border-radius: 4px;
+	}
+
+	label {
+	  padding: 12px 12px 12px 0;
+	  display: inline-block;
+	}
+
+	.col-25 {
+	  float: left;
+	  width: 25%;
+	  margin-top: 6px;
+	}
+
+	.col-75 {
+	  float: left;
+	  width: 75%;
+	  margin-top: 6px;
+	}
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+
+</style>
+<script>
+
+
+</script>
+</head>
 <body>
-<form>
-	Name:
-	<input type="text"> 
-</form>
+	<h1 >Intern Registration form</h1>
+	<div class="container">
+		<form action="#" name="registration_form">
+			<div class="row">
+
+				<div class="col-25">	
+					<label for="fname">First Name:</label>
+				</div>
+
+				<div class="col-75">
+					<input type="text" name="fname" placeholder="HIPPY"> 
+				</div>
+				
+			</div>
+
+			<div class="row">
+				
+				<div class="col-25">	
+					<label for="lname">Last Name:</label>
+				</div>
+
+				<div class="col-75">
+					<input type="text" name="lname" placeholder="SABOTAGE"> 
+				</div>
+				
+			</div>
+
+			<div class="row">
+				
+				<div class="col-25">	
+					<label for="email">Email id</label>
+				</div>
+
+				<div class="col-75">
+					<input type="text" name="email" placeholder="boomshankar@chun.li"> 
+				</div>
+				
+			</div>
+
+			<div class="row">
+				
+				<div class="col-25">	
+					<label for="number">Phone number</label>
+				</div>
+
+				<div class="col-75">
+					<input type="number" name="number" placeholder="     :)    "> 
+				</div>
+				
+			</div>
+
+		</form>
+	</div>
 </body>
-</html>git status
+</html>
