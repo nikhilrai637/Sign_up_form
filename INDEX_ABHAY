@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head><title>Form1_abhay</title></head>
+<body>
+<form>
+	Name:
+	<input type="text"> 
+</form>
+</body>
+</html>
